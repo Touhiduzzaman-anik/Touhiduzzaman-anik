@@ -1,125 +1,154 @@
 
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="1200" height="340" viewBox="0 0 1200 340">
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
   <defs>
-    <radialGradient id="space">
-      <stop offset="0%" stop-color="#24204f"/>
-      <stop offset="55%" stop-color="#10152d"/>
-      <stop offset="100%" stop-color="#05070e"/>
-    </radialGradient>
-
-    <linearGradient id="nebula" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#00e5ff"/>
-      <stop offset="50%" stop-color="#7857ff"/>
-      <stop offset="100%" stop-color="#ff3cac"/>
-      <animate attributeName="x1"
-        values="0;1;0" dur="9s" repeatCount="indefinite"/>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#030611"/>
+      <stop offset=".55" stop-color="#11152f"/>
+      <stop offset="1" stop-color="#02040b"/>
     </linearGradient>
-
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
+    <linearGradient id="glow" x2="1">
+      <stop stop-color="#00eaff"/>
+      <stop offset=".5" stop-color="#8264ff"/>
+      <stop offset="1" stop-color="#ff62c9"/>
+    </linearGradient>
+    <radialGradient id="earth">
+      <stop stop-color="#5cf4ff"/>
+      <stop offset=".55" stop-color="#1476bd"/>
+      <stop offset="1" stop-color="#07152d"/>
+    </radialGradient>
+    <radialGradient id="jupiter">
+      <stop stop-color="#f9d5a0"/>
+      <stop offset=".6" stop-color="#a96542"/>
+      <stop offset="1" stop-color="#34203a"/>
+    </radialGradient>
+    <radialGradient id="sun">
+      <stop stop-color="#fff9bd"/>
+      <stop offset=".45" stop-color="#ffb52e"/>
+      <stop offset="1" stop-color="#ff5429"/>
+    </radialGradient>
     <clipPath id="frame">
-      <rect width="1200" height="340" rx="18"/>
+      <rect width="1200" height="340" rx="16"/>
     </clipPath>
   </defs>
 
   <g clip-path="url(#frame)">
-    <rect width="1200" height="340" fill="url(#space)"/>
+    <rect width="1200" height="340" fill="url(#bg)"/>
 
-    <!-- Animated nebula -->
-    <ellipse cx="250" cy="80" rx="280" ry="95"
-      fill="url(#nebula)" opacity=".19" filter="url(#glow)">
-      <animate attributeName="cx"
-        values="250;950;250" dur="14s" repeatCount="indefinite"/>
-      <animate attributeName="ry"
-        values="65;125;65" dur="8s" repeatCount="indefinite"/>
+    <!-- Nebula -->
+    <ellipse cx="280" cy="55" rx="260" ry="95"
+      fill="#6546ff" opacity=".17">
+      <animate attributeName="cx" values="280;850;280"
+        dur="14s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="960" cy="280" rx="270" ry="90"
+      fill="#00bfff" opacity=".13">
+      <animate attributeName="cx" values="960;300;960"
+        dur="18s" repeatCount="indefinite"/>
     </ellipse>
 
-    <ellipse cx="950" cy="260" rx="300" ry="75"
-      fill="url(#nebula)" opacity=".2" filter="url(#glow)">
-      <animate attributeName="cx"
-        values="950;250;950" dur="17s" repeatCount="indefinite"/>
-    </ellipse>
-
-    <!-- Moving stars -->
-    <g fill="#ffffff">
-      <circle cx="100" cy="80" r="2">
-        <animate attributeName="cy" values="80;260;80"
-          dur="7s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values=".2;1;.2"
-          dur="3s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="280" cy="250" r="1.5">
-        <animate attributeName="cy" values="250;60;250"
-          dur="9s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="450" cy="55" r="2">
-        <animate attributeName="opacity" values=".1;1;.1"
-          dur="2s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="720" cy="275" r="2">
-        <animate attributeName="cy" values="275;65;275"
-          dur="8s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="930" cy="75" r="1.5">
-        <animate attributeName="opacity" values="1;.2;1"
-          dur="4s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="1090" cy="240" r="2">
-        <animate attributeName="cy" values="240;70;240"
-          dur="10s" repeatCount="indefinite"/>
-      </circle>
+    <!-- Stars -->
+    <g fill="#fff">
+      <circle cx="70" cy="55" r="1.5"/>
+      <circle cx="170" cy="240" r="1"/>
+      <circle cx="290" cy="100" r="1.4"/>
+      <circle cx="430" cy="45" r="1.2"/>
+      <circle cx="560" cy="280" r="1.5"/>
+      <circle cx="740" cy="65" r="1.4"/>
+      <circle cx="850" cy="255" r="1"/>
+      <circle cx="990" cy="65" r="1.6"/>
+      <circle cx="1120" cy="230" r="1.5"/>
+      <circle cx="1150" cy="90" r="1"/>
+      <circle cx="660" cy="135" r="1"/>
+      <circle cx="350" cy="295" r="1.2"/>
     </g>
 
-    <!-- Orbital rings -->
-    <g transform="translate(600 170)" fill="none"
-       stroke="#7e8cff" stroke-width="1" opacity=".45">
-      <ellipse rx="330" ry="75" transform="rotate(-12)">
-        <animateTransform attributeName="transform"
-          type="rotate" from="-12" to="348"
-          dur="35s" repeatCount="indefinite"/>
-      </ellipse>
-      <ellipse rx="370" ry="105" transform="rotate(18)"
-        stroke="#00d9ff" opacity=".55">
-        <animateTransform attributeName="transform"
-          type="rotate" from="18" to="-342"
-          dur="45s" repeatCount="indefinite"/>
-      </ellipse>
+    <!-- Orbit paths behind the name -->
+    <g fill="none" stroke="url(#glow)" opacity=".65">
+      <ellipse cx="600" cy="170" rx="510" ry="85"
+        stroke-width="1.2" transform="rotate(-9 600 170)"/>
+      <ellipse cx="600" cy="170" rx="440" ry="115"
+        stroke-width="1" transform="rotate(12 600 170)"/>
     </g>
 
-    <!-- Name only -->
-    <text x="600" y="190"
-      text-anchor="middle"
+    <!-- Name stays behind the planets -->
+    <text x="600" y="173" text-anchor="middle"
       font-family="Arial, Helvetica, sans-serif"
-      font-size="64"
-      font-weight="800"
-      letter-spacing="1"
-      fill="#ffffff"
-      stroke="#000000"
-      stroke-width="2.5"
-      paint-order="stroke fill"
-      filter="url(#glow)">Touhiduzzaman Anik</text>
+      font-size="66" font-weight="800"
+      fill="#f4f8ff" stroke="#13182f" stroke-width="3"
+      paint-order="stroke fill" letter-spacing="1">
+      Touhiduzzaman Anik
+    </text>
+    <text x="600" y="173" text-anchor="middle"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="66" font-weight="800"
+      fill="none" stroke="#65dfff" stroke-width=".8"
+      opacity=".9">
+      Touhiduzzaman Anik
+    </text>
 
-    <!-- Subtle animated underline -->
-    <rect x="390" y="218" width="420" height="2"
-      rx="1" fill="url(#nebula)">
-      <animate attributeName="width"
-        values="160;420;160" dur="5s"
-        repeatCount="indefinite"/>
-      <animate attributeName="x"
-        values="520;390;520" dur="5s"
-        repeatCount="indefinite"/>
-    </rect>
+    <!-- Sun -->
+    <circle cx="45" cy="170" r="55" fill="#ff742d" opacity=".16"/>
+    <circle cx="45" cy="170" r="38" fill="url(#sun)">
+      <animate attributeName="r" values="36;40;36"
+        dur="4s" repeatCount="indefinite"/>
+    </circle>
 
+    <!-- Earth crosses in front of the name -->
+    <g>
+      <circle r="21" fill="url(#earth)" stroke="#69e9ff" stroke-width="1"/>
+      <path d="M-13 -12 L-4 -17 L3 -9 L-1 -3 L-9 0 L-12 10 L-4 15 L2 7 L7 4 L12 -5 L7 -13"
+        fill="#62db96" opacity=".9"/>
+      <animateMotion dur="8s" repeatCount="indefinite"
+        rotate="auto"
+        path="M 120,220 C 300,300 420,65 600,215 S 920,280 1080,130"/>
+    </g>
+
+    <!-- Mars -->
+    <g>
+      <circle r="24" fill="#d75a3b" stroke="#ffae79" stroke-width="1"/>
+      <path d="M-12 -8 L0 -16 L13 -4 L7 4 L-3 12 L-13 5Z"
+        fill="#803528" opacity=".7"/>
+      <animateMotion dur="11s" repeatCount="indefinite"
+        path="M 170,115 C 350,20 570,300 760,115 S 1030,45 1130,205"/>
+    </g>
+
+    <!-- Jupiter foreground -->
+    <g>
+      <circle r="45" fill="url(#jupiter)" stroke="#f5d2a1" stroke-width="1"/>
+      <path d="M-37 -18 Q0 -29 37 -15 M-43 -5 Q0 7 43 -2 M-38 13 Q0 22 38 12"
+        fill="none" stroke="#75452f" stroke-width="7" opacity=".8"/>
+      <ellipse cx="15" cy="13" rx="10" ry="5"
+        fill="#a84d37" transform="rotate(-15 15 13)"/>
+      <animateMotion dur="13s" repeatCount="indefinite"
+        path="M 310,255 C 470,280 560,45 730,240 S 950,280 1080,105"/>
+    </g>
+
+    <!-- Saturn and its rings -->
+    <g>
+      <ellipse rx="48" ry="15" fill="none"
+        stroke="#dfbd94" stroke-width="8"
+        transform="rotate(-20)"/>
+      <ellipse rx="48" ry="15" fill="none"
+        stroke="#f7dfb6" stroke-width="2"
+        transform="rotate(-20)"/>
+      <circle r="25" fill="#d8b77e" stroke="#f8dfb1" stroke-width="1"/>
+      <path d="M-23 -5 Q0 2 23 -5 M-20 8 Q0 14 20 8"
+        fill="none" stroke="#94744e" stroke-width="4"/>
+      <animateMotion dur="16s" repeatCount="indefinite"
+        path="M 1000,235 C 830,300 730,55 560,95 S 300,300 160,150"/>
+    </g>
+
+    <!-- Comet -->
+    <g>
+      <path d="M-40 0 L0 0" stroke="#8eeaff"
+        stroke-width="3" stroke-linecap="round"/>
+      <circle r="4" fill="#ffffff"/>
+      <animateMotion dur="5s" repeatCount="indefinite"
+        path="M 0,35 L 1200,0"/>
+    </g>
+
+    <!-- Border -->
     <rect x="1" y="1" width="1198" height="338"
-      rx="18" fill="none" stroke="#6977ff"
-      stroke-opacity=".35"/>
+      rx="16" fill="none" stroke="#687bff" stroke-opacity=".5"/>
   </g>
 </svg>
