@@ -109,6 +109,26 @@
 
 ---
 
+<h2 align="center">FEATURED PROJECTS</h2>
+
+<table align="center">
+  <tr>
+    <td width="100%">
+      <h3>🧮 C Calculator</h3>
+      <p>
+        A command-line calculator built using C programming.
+        Supports addition, subtraction, multiplication,
+        division, and division-by-zero handling.
+      </p>
+      <p>
+        <b>Tech:</b> C · switch-case · Arithmetic Operators
+      </p>
+      <a href="./Calculator/calculator.c">View Source Code →</a>
+    </td>
+  </tr>
+</table>
+
+
 <h2 align="center">CONNECT WITH ME</h2>
 
 <p align="center">
