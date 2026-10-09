@@ -10,34 +10,72 @@
 
 ---
 
-# About Me
 
--  Studying **Software Engineering at Daffodil International University**
--  Passionate about **Problem Solving, Systems Architecture, and Robotics,Cyber Security**
--  Long-term ambition: **Tech Entrepreneurship & fronted developer**
--  Constantly learning modern engineering practices and refining algorithms in **C & C++**
+<h2 align="center">ABOUT ME</h2>
 
----
-
-# Tech Stack & Skills
-
-<p align="left">
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+<p align="center">
+  Software Engineering student at
+  <b>Daffodil International University</b>,
+  passionate about software Design,Explore Artificial Inteligence and Robots
 </p>
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Problem%20Solving-7C3AED?style=flat-square" alt="Problem Solving"/>
+  <img src="https://img.shields.io/badge/Interest-Software%20Development-0891B2?style=flat-square" alt="Software Development"/>
+  <img src="https://img.shields.io/badge/Goal-Full--Stack%20Developer-059669?style=flat-square" alt="Full Stack Developer"/>
+</p>
 
-### 📊 GitHub Overview
+<p align="center">
+  I enjoy learning new technologies, improving my
+  programming skills, and turning ideas into practical projects.
+</p>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Touhiduzzaman-anik&show_icons=true&theme=github_dark&hide_border=false&border_color=30363d&bg_color=0d1117&text_color=c9d1d9&icon_color=58a6ff&title_color=58a6ff" height="155" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Touhiduzzaman-anik&layout=compact&theme=github_dark&hide_border=false&border_color=30363d&bg_color=0d1117&text_color=c9d1d9&title_color=58a6ff" height="155" alt="Top Languages" />
-</div>
+
+
+<h2 align="center">Tech Stack & Tools</h2>
+
+<h3 align="center">Programming Languages</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,cpp,python" alt="C, C++, Python"/>
+</p>
+
+<h3 align="center">Development Tools</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode" alt="Git, GitHub, VS Code"/>
+</p>
+
+<h3 align="center">Web & Database</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,sql" alt="HTML, CSS, JavaScript, SQL"/>
+</p>
+
+
+<h2 align="center">GitHub Analytics</h2>
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=Touhiduzzaman-anik&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"
+    alt="GitHub Stats"
+    height="170"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Touhiduzzaman-anik&layout=compact&theme=tokyonight&hide_border=true"
+    alt="Most Used Languages"
+    height="170"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=Touhiduzzaman-anik&theme=tokyonight&hide_border=true"
+    alt="GitHub Contribution Streak"
+  />
+</p>
+
+<p align="center">
+  <i>Learning every day. Building one project at a time.</i>
+</p>
+
 
 # Connect with Me
 
