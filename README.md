@@ -1,18 +1,22 @@
 <div align="center">
 
-  <h1> Hi, I'm Touhiduzzaman Anik</h1>
-  <p><b>Software Engineering Student | Aspiring Entrepreneur | Tech Enthusiast</b></p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,25&height=180&section=header&text=Touhiduzzaman%20Anik&fontSize=42&fontAlignY=38&desc=Software%20Engineering%20Student%20%7C%20Problem%20Solver&descAlignY=58&descSize=18&animation=fadeIn" width="100%" />
+
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=550&lines=Competitive+Programming+in+C%2B%2B;Mastering+Data+Structures+%26+Algorithms;Aspiring+Tech+Entrepreneur;Exploring+Systems+%26+Data+Security" alt="Typing SVG" />
+  </a>
+
+  <br/><br/>
 
   <p>
-    <a href="https://www.linkedin.com/in/touhiduzzaman-anik-5a599b32a">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <a href="https://www.linkedin.com/in/touhiduzzaman-anik-5a599b32a" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
-    <a href="https://codeforces.com">
-      <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" />
+    &nbsp;
+    <a href="https://codeforces.com/profile/Touhiduzzaman-anik" target="_blank">
+      <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white" alt="Codeforces" />
     </a>
   </p>
-
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,20&height=120&section=header" width="100%"/>
 
 </div>
 
