@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1>👋 Hi, I'm Touhiduzzaman Anik</h1>
+  <h1> Hi, I'm Touhiduzzaman Anik</h1>
   <p><b>Software Engineering Student | Aspiring Entrepreneur | Tech Enthusiast</b></p>
 
   <p>
@@ -18,16 +18,16 @@
 
 ---
 
-### 🚀 About Me
+# About Me
 
-- 🎓 Studying **Software Engineering**
-- 💡 Passionate about **Problem Solving, Systems Architecture, and Data Security**
-- 🎯 Long-term ambition: **Tech Entrepreneurship & Product Building**
-- 🌱 Constantly learning modern engineering practices and refining algorithms in **C & C++**
+-  Studying **Software Engineering at Daffodil International University**
+-  Passionate about **Problem Solving, Systems Architecture, and Robotics,Cyber Security**
+-  Long-term ambition: **Tech Entrepreneurship & fronted developer**
+-  Constantly learning modern engineering practices and refining algorithms in **C & C++**
 
 ---
 
-### 🛠️ Tech Stack & Skills
+# Tech Stack & Skills
 
 <p align="left">
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
@@ -40,7 +40,7 @@
 
 ---
 
-### 📊 GitHub Analytics
+# GitHub Analytics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Touhiduzzaman-anik&show_icons=true&theme=radical&hide_border=true&title_color=00d2ff&icon_color=00d2ff" height="150" alt="GitHub Stats" />
@@ -55,7 +55,22 @@
 
 ---
 
-### 🤝 Connect with Me
+# Connect with Me
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/touhiduzzaman-anik-5a599b32a" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://facebook.com/(https://www.facebook.com/tjanik884)" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+  </a>
+  <a href="https://instagram.com/(https://www.instagram.com/touhiduzzaman_anik?mdxt=MWg1cmd0eTZjajN6NQ==)" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://youtube.com/@https://youtube.com/@touhiduzzaman-anik?si=WPLNVFc2WcdmT5xD" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+  </a>
+</p>
 
 - 🌐 **LinkedIn:** [Touhiduzzaman Anik](https://www.linkedin.com/in/touhiduzzaman-anik-5a599b32a)
 - 💻 **Competitive Programming:** Active on Codeforces
