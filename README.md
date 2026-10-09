@@ -40,20 +40,12 @@
 
 ---
 
-# GitHub Analytics
+### 📊 GitHub Overview
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Touhiduzzaman-anik&show_icons=true&theme=radical&hide_border=true&title_color=00d2ff&icon_color=00d2ff" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Touhiduzzaman-anik&layout=compact&theme=radical&hide_border=true&title_color=00d2ff" height="150" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Touhiduzzaman-anik&show_icons=true&theme=github_dark&hide_border=false&border_color=30363d&bg_color=0d1117&text_color=c9d1d9&icon_color=58a6ff&title_color=58a6ff" height="155" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Touhiduzzaman-anik&layout=compact&theme=github_dark&hide_border=false&border_color=30363d&bg_color=0d1117&text_color=c9d1d9&title_color=58a6ff" height="155" alt="Top Languages" />
 </div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Touhiduzzaman-anik&theme=radical&hide_border=true&ring=00d2ff&fire=00d2ff" alt="GitHub Streak" />
-</div>
-
----
 
 # Connect with Me
 
